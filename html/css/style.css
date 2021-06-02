@@ -27,7 +27,7 @@ header nav {
     background-color:peru;
 }
 body {
-    background-image: url(../back.jpg);
+    background-image: url(../images/back.jpg);
     background-size: cover;;
 }
 header nav ul {
@@ -63,6 +63,10 @@ header nav ul li ul {
 }
 header nav ul li:hover ul {
     display: block;
+    position: absolute;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
     
 }
 
